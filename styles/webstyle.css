@@ -1,0 +1,151 @@
+/* Header Style */
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.primary-btn {
+  border: none;
+  border-radius: 5px;
+  padding: 12px 25px;
+  margin-top: 20px;
+  color: #005fac;
+  font-weight: bolder;
+}
+header {
+  background-image: url(../images/banner/banner3.png);
+  background-size: cover;
+  height: 110vh;
+  width: 100%;
+  color: white;
+}
+.header-container {
+  text-align: right;
+  width: 70%;
+  padding: 350px;
+}
+.header-title {
+  font-weight: 700;
+  font-size: 55px;
+  line-height: 80px;
+}
+.header-description {
+  line-height: 80px;
+  margin-top: 60px;
+}
+/* Section-1 style */
+.section-1-container {
+  display: flex;
+  justify-content: center;
+  margin: 40px 350px 80px 350px;
+  gap: 50px;
+}
+.left-container {
+  padding-top: 50px;
+  width: 50%;
+}
+.right-container {
+  padding-top: 250px;
+  width: 50%;
+}
+.right-container-title {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 47px;
+}
+.right-container-description {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+}
+.items {
+  margin-top: 10px;
+  list-style: none;
+}
+/* Section-2 style */
+
+.section-2-container-title {
+  font-weight: 700;
+  font-size: 40px;
+  text-align: center;
+}
+.div-items {
+  margin-bottom: 60px;
+  padding: 45px 100px 30px 300px;
+  display: flex;
+  justify-content: space-around;
+}
+.item-title {
+  font-weight: 700;
+  font-size: 20px;
+}
+.item-des {
+  font-weight: 400px;
+  color: gray;
+  line-height: 25px;
+}
+/* section-3 style*/
+.section-3 {
+  background-image: url(../images/watch.png);
+  background-repeat: no-repeat;
+  width: 50%;
+  margin: auto;
+  border-radius: 10px;
+}
+.div3 {
+  background: linear-gradient(90deg, #005fac, rgba(0, 95, 172, 0));
+  text-align: left;
+  padding: 40px 200px 70px 50px;
+  color: white;
+  font-size: 35px;
+  border-radius: 10px;
+}
+/* Footer style */
+footer {
+  display: flex;
+  justify-content: space-around;
+  background-color: rgba(0, 0, 0, 0.952);
+  margin-top: 70px;
+}
+.left-div {
+  padding: 80px 0;
+  color: white;
+}
+.left-div-title {
+  font-weight: 700;
+  font-size: 40px;
+  margin-bottom: 10px;
+}
+.left-div-des {
+  color: rgba(255, 255, 255, 0.76);
+  margin-bottom: 10px;
+  font-size: small;
+}
+.phone {
+  margin-top: 10px;
+  margin-bottom: 15px;
+}
+.icons {
+  display: flex;
+  gap: 20px;
+}
+.right-div {
+  padding: 80px 0;
+  color: white;
+}
+.email {
+  margin-top: 15px;
+  background-color: rgba(0, 0, 0, 0.952);
+  color: white;
+  border-color: rgba(255, 255, 255, 0.884);
+  border-radius: 5px;
+  padding: 12px;
+}
+.btn {
+  margin-top: 10px;
+  background-color: rgba(9, 115, 214, 0.884);
+  border-radius: 5px;
+  padding: 12px 20px;
+  color: white;
+}
